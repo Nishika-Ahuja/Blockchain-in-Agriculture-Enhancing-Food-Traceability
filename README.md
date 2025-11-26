@@ -84,8 +84,6 @@ Tracks product movement after registration.
 
 This section explains how to install MetaMask, connect the RSK Testnet, deploy your Solidity smart contracts using Remix IDE, and interact with them.
 
----
-
 ##  **Step 1: Install & Set Up MetaMask**
 
 ### 1. Install MetaMask
@@ -106,15 +104,20 @@ This section explains how to install MetaMask, connect the RSK Testnet, deploy y
 ## **Step 2: Add RSK Testnet to MetaMask**
 
 1. Open MetaMask → Click **Network Dropdown** → **Add Network**
+
+![MetaMask Network Dropdown](./images/img 1.jpg)
+
 2. Enter the following details:
 
 | Field | Value |
-|------|-------|
-| Network Name | RSK Testnet |
-| RPC URL | https://public-node.testnet.rsk.co |
-| Chain ID | 31 |
-| Currency Symbol | tR-BTC |
-| Block Explorer URL | https://explorer.testnet.rsk.co |
+|-------|-------|
+| **Network Name** | RSK Testnet |
+| **RPC URL** | https://public-node.testnet.rsk.co |
+| **Chain ID** | 31 |
+| **Currency Symbol** | tR-BTC |
+| **Block Explorer URL** | https://explorer.testnet.rsk.co |
+
+![MetaMask Add Network Form](./images/img 2.jpg)
 
 3. Click **Save**
 
