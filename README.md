@@ -24,8 +24,7 @@ A decentralized platform that records:
 
 - Harvest details  
 - Transportation & logistics  
-- Storage & quality checks  
-- Sale information  
+- Storage & quality checks   
 
 Blockchain ensures:
 
@@ -55,17 +54,18 @@ Registers product details.
 **Functions:**  
 - `registerProduct()`  
 - `getProduct()`
+- `getAllProducts()` 
 
 **Data Stored:**  
 - Product ID  
 - Product Name  
 - Harvest Date  
-- Farmer Address  
+- Farmer Name  
 - Location  
 
 ---
 
-### ** 2. FoodTraceability.sol**
+### **2. FoodTraceability.sol**
 Tracks product movement after registration.
 
 **Functions:**  
@@ -77,6 +77,135 @@ Tracks product movement after registration.
 - Transport Date  
 - Retailer  
 - Quality Check Status  
+
+---
+
+## Deployment Guide Using MetaMask, Remix IDE & RSK Testnet
+
+This section explains how to install MetaMask, connect the RSK Testnet, deploy your Solidity smart contracts using Remix IDE, and interact with them.
+
+---
+
+##  **Step 1: Install & Set Up MetaMask**
+
+### 1. Install MetaMask
+- Open Chrome Web Store  
+- Install MetaMask extension  
+  🔗 https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn  
+- Click **Add to Chrome** → **Add Extension**
+
+### 2. Create or Import a Wallet
+- Open MetaMask → Click **Get Started**
+- Choose:
+  - **Create Wallet** (new account)
+  - **Import Wallet** (using Secret Phrase)
+- Set a password and **save your recovery phrase securely**
+
+---
+
+## **Step 2: Add RSK Testnet to MetaMask**
+
+1. Open MetaMask → Click **Network Dropdown** → **Add Network**
+2. Enter the following details:
+
+| Field | Value |
+|------|-------|
+| Network Name | RSK Testnet |
+| RPC URL | https://public-node.testnet.rsk.co |
+| Chain ID | 31 |
+| Currency Symbol | tR-BTC |
+| Block Explorer URL | https://explorer.testnet.rsk.co |
+
+3. Click **Save**
+
+Your wallet is now connected to the **RSK Testnet**.
+
+---
+
+##  **Step 3: Fund Your Wallet (Free Test Tokens)**
+
+1. Go to RSK Testnet Faucet:  
+   🔗 https://faucet.rsk.co/
+2. Paste your MetaMask wallet address
+3. Request free **0.05 RBTC** (daily limit)
+4. After a few seconds:
+   - Tokens will appear in MetaMask
+   - You can verify on the RSK Explorer:
+     🔗 https://explorer.testnet.rsk.co/
+
+---
+
+##  **Step 4: Connect MetaMask to Remix IDE**
+
+1. Go to Remix IDE:  
+   🔗 https://remix.ethereum.org/
+2. Open the **Deploy & Run Transactions** panel (left sidebar)
+3. Under **Environment**, select **Injected Web3**
+4. A MetaMask popup will appear:
+   - Click **Next**
+   - Click **Connect**
+
+Once connected, you will see your **MetaMask account address** displayed inside Remix.
+
+---
+
+##  **Step 5: Deploy the Smart Contract**
+
+### 1. Create a new file in Remix
+- Create → `FoodRegistration.sol`
+- Paste your smart contract code
+
+### 2. Compile the contract
+- Go to **Solidity Compiler**
+- Select Version: **0.8.x**
+- Click **Compile FoodRegistration.sol**
+
+### 3. Deploy
+- Go to **Deploy & Run Transactions**
+- Make sure **Injected Web3** is selected
+- Click **Deploy**
+- MetaMask popup will appear:
+  - Confirm the transaction
+
+### 4. Verify Deployment
+- After confirmation, Remix will show:
+  - Contract address
+  - Gas used
+  - Transaction hash
+
+You can check the transaction here:  
+🔗 https://explorer.testnet.rsk.co/
+
+---
+
+##  **Step 6: Interact With the Smart Contract**
+
+Once deployed, you will see the contract under **Deployed Contracts**.
+
+You can now use:
+
+###  **registerProduct()**
+Add a new product:
+- name  
+- farmerName  
+- harvestDate  
+- location  
+- Click **transact**
+
+###  **getProduct()**
+Enter a product ID → click **call**
+
+###  **getAllProducts()**
+Fetch all stored products → click **call**
+
+Every **write** action will open a MetaMask confirmation window.
+
+---
+
+
+
+
+
 
 
 

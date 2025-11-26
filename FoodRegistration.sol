@@ -26,4 +26,13 @@ contract FoodRegistration {
     function getProduct(uint _id) public view returns (Product memory) {
         return products[_id];
     }
+
+      //Get all products
+    function getAllProducts() public view returns (Product[] memory) {
+        Product[] memory allProducts = new Product[](productCount);
+        for (uint i = 1; i <= productCount; i++) {
+            allProducts[i - 1] = products[i];
+        }
+        return allProducts;
+    }
 }
