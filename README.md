@@ -134,10 +134,10 @@ Your wallet is now connected to the **RSK Testnet**.
 3. Request free **0.05 RBTC** (daily limit)
 4. After a few seconds:
    - Tokens will appear in MetaMask
-   ![MetaMask Add Network Form](images/img5.jpg)
+![MetaMask Add Network Form](images/img5.jpg)
    - You can verify on the RSK Explorer:
      🔗 https://explorer.testnet.rsk.co/
-    ![MetaMask Add Network Form](images/img4.jpg)
+![MetaMask Add Network Form](images/img4.jpg)
 
 ---
 
@@ -147,6 +147,7 @@ Your wallet is now connected to the **RSK Testnet**.
    🔗 https://remix.ethereum.org/
 2. Open the **Deploy & Run Transactions** panel (left sidebar)
 3. Under **Environment**, select **Injected Web3**
+
 ![MetaMask Add Network Form](images/img6.jpg)
 
 4. A MetaMask popup will appear:
@@ -176,6 +177,7 @@ Once connected, you will see your **MetaMask account address** displayed inside 
 - Click **Deploy**
 - MetaMask popup will appear:
   - Confirm the transaction
+
 ![MetaMask Add Network Form](images/img9.jpg)
 
 ### 4. Verify Deployment
@@ -183,11 +185,13 @@ Once connected, you will see your **MetaMask account address** displayed inside 
   - Contract address
   - Gas used
   - Transaction hash
+
 ![MetaMask Add Network Form](images/img10.jpg)
 ![MetaMask Add Network Form](images/img11.jpg)
 
 You can check the transaction here:  
 🔗 https://explorer.testnet.rsk.co/
+
 ![MetaMask Add Network Form](images/img12.jpg)
 ![MetaMask Add Network Form](images/img13.jpg)
 
@@ -206,6 +210,7 @@ Add a new product:
 - harvestDate  
 - location  
 - Click **transact**
+
 ![MetaMask Add Network Form](images/img14.jpg)
 ![MetaMask Add Network Form](images/img15.jpg)
 
