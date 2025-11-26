@@ -105,8 +105,6 @@ This section explains how to install MetaMask, connect the RSK Testnet, deploy y
 
 1. Open MetaMask → Click **Network Dropdown** → **Add Network**
 
-![MetaMask Network Dropdown](images/img1.jpg)
-
 2. Enter the following details:
 
 | Field | Value |
@@ -116,6 +114,8 @@ This section explains how to install MetaMask, connect the RSK Testnet, deploy y
 | **Chain ID** | 31 |
 | **Currency Symbol** | tR-BTC |
 | **Block Explorer URL** | https://explorer.testnet.rsk.co |
+
+![MetaMask Network Dropdown](images/img1.jpg)
 
 ![MetaMask Add Network Form](images/img2.jpg)
 
@@ -130,11 +130,14 @@ Your wallet is now connected to the **RSK Testnet**.
 1. Go to RSK Testnet Faucet:  
    🔗 https://faucet.rsk.co/
 2. Paste your MetaMask wallet address
+![MetaMask Add Network Form](images/img3.jpg)
 3. Request free **0.05 RBTC** (daily limit)
 4. After a few seconds:
    - Tokens will appear in MetaMask
+   ![MetaMask Add Network Form](images/img5.jpg)
    - You can verify on the RSK Explorer:
      🔗 https://explorer.testnet.rsk.co/
+    ![MetaMask Add Network Form](images/img4.jpg)
 
 ---
 
@@ -144,11 +147,15 @@ Your wallet is now connected to the **RSK Testnet**.
    🔗 https://remix.ethereum.org/
 2. Open the **Deploy & Run Transactions** panel (left sidebar)
 3. Under **Environment**, select **Injected Web3**
+![MetaMask Add Network Form](images/img6.jpg)
+
 4. A MetaMask popup will appear:
    - Click **Next**
    - Click **Connect**
+![MetaMask Add Network Form](images/img7.jpg)
 
 Once connected, you will see your **MetaMask account address** displayed inside Remix.
+![MetaMask Add Network Form](images/img8.jpg)
 
 ---
 
@@ -169,15 +176,20 @@ Once connected, you will see your **MetaMask account address** displayed inside 
 - Click **Deploy**
 - MetaMask popup will appear:
   - Confirm the transaction
+![MetaMask Add Network Form](images/img9.jpg)
 
 ### 4. Verify Deployment
 - After confirmation, Remix will show:
   - Contract address
   - Gas used
   - Transaction hash
+![MetaMask Add Network Form](images/img10.jpg)
+![MetaMask Add Network Form](images/img11.jpg)
 
 You can check the transaction here:  
 🔗 https://explorer.testnet.rsk.co/
+![MetaMask Add Network Form](images/img12.jpg)
+![MetaMask Add Network Form](images/img13.jpg)
 
 ---
 
@@ -194,12 +206,17 @@ Add a new product:
 - harvestDate  
 - location  
 - Click **transact**
+![MetaMask Add Network Form](images/img14.jpg)
+![MetaMask Add Network Form](images/img15.jpg)
 
 ###  **getProduct()**
 Enter a product ID → click **call**
 
 ###  **getAllProducts()**
 Fetch all stored products → click **call**
+
+![MetaMask Add Network Form](images/img16.jpg)
+![MetaMask Add Network Form](images/img17.jpg)
 
 Every **write** action will open a MetaMask confirmation window.
 
