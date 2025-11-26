@@ -105,7 +105,7 @@ This section explains how to install MetaMask, connect the RSK Testnet, deploy y
 
 1. Open MetaMask → Click **Network Dropdown** → **Add Network**
 
-![MetaMask Network Dropdown](./images/img 1.jpg)
+![MetaMask Network Dropdown](images/img 1.jpg)
 
 2. Enter the following details:
 
@@ -117,7 +117,7 @@ This section explains how to install MetaMask, connect the RSK Testnet, deploy y
 | **Currency Symbol** | tR-BTC |
 | **Block Explorer URL** | https://explorer.testnet.rsk.co |
 
-![MetaMask Add Network Form](./images/img 2.jpg)
+![MetaMask Add Network Form](images/img 2.jpg)
 
 3. Click **Save**
 
